@@ -7,6 +7,7 @@ import {FaMusic} from "react-icons/fa"
 import {GiFilmProjector} from "react-icons/gi"
 import {FaGrinStars} from "react-icons/fa"
 import {FaWpexplorer} from "react-icons/fa"
+import userProfile from "../../images/personal-1.png"
 
 function Content(){
        return(
@@ -16,8 +17,8 @@ function Content(){
                                    <ul>
                                           <li>
                                                  <div className="content-user categorySelector">
-                                                        <div className="category-img">
-
+                                                        <div className="category-img profile">
+                                                               <img src={userProfile} alt=""/>
                                                         </div> 
                                                  <div className="category-title">
                                                         <h2>User</h2>
